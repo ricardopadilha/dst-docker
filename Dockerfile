@@ -34,5 +34,5 @@ ADD configure.sh change.slot.sh change.port.sh update.sh set.mods.sh override.wo
 
 VOLUME ["$HOME/.klei/DoNotStarveTogether/"]
 EXPOSE 10999/udp
-WORKDIR $HOME/home/steam/DST/bin/
+WORKDIR $HOME/steamapps/DST/bin/
 ENTRYPOINT ./dontstarve_dedicated_server_nullrenderer
